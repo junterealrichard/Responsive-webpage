@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Green Designer - Home</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\user\Desktop\Daniel Bondad\PT101\IPT_FINALS_PROJECT\images/mini.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Raleway:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+    
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="images/logo_transparent.png"></a>
+            <div class="link" id="key_links">
+                <i class="bi bi-x-square-fill" onclick="closebtn()"></i>
+                 <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href="portfolio.html"> Portfolio</a></li>
+                    <li><a href="client.html"> Clients</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                 </ul>
+            </div>
+                <i class="bi bi-list" onclick="openbtn()"></i>
+    <div class="lead-banner">
+        <h1>Lorem Ipsum</h1>
+            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+            <a href="index.html" class="view-btn"> View Our Work</a>
+    </div>
+</section>
+
+<script>
+
+    var key_links = document.getElementById("key_links");
+
+    function openbtn(){
+        key_links.style.right = "0"; 
+    }
+
+    function closebtn(){
+        key_links.style.right = "-200px";
+    }
+</script>
+<section id="points-of-sale">
+        <h2>Points of Sale</h2>
+        <div class="sale">
+            <div class="point">
+                <center>
+                    <img src="images/web.png" alt="web design">
+                    <h3>Web Design</h3>
+                    <p>quatis alique mos et aut occae cum, veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et laboribusam endi rerum as minullorent officiatum non cuscium quuntem</p>
+                </center> 
+            </div>
+            <div class="point">
+                <center>
+                    <img src="images/cart.png" alt="e-commerce">
+                    <h3>E-commerce</h3>
+                    <p>quatis alique mos et aut occae cum, veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et laboribusam endi rerum as minullorent officiatum non cuscium quuntem</p>
+                </center>
+            </div>
+            <div  class="point">
+                <center>
+                    <img src="images/seo.png" alt="seo">
+                    <h3>SEO</h3>
+                    <p>quatis alique mos et aut occae cum, veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et laboribusam endi rerum as minullorent officiatum non cuscium quuntem</p>
+                </center>
+            </div>
+        </div>
+</section>
+<section class="sliding">
+    <h2>What Our Clients Say</h2>    
+    <div class="slide-wrap"><div class="slide-move">
+    <div class="slide">
+        <img src="images\cus01.png" alt="quote">
+        <blockquote><i><b>"</b>quatis alique mos et aut occae cum, veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et l <b>"</b></i></blockquote>         
+        <br></br>
+        <p> - Adam Sandler</p>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-half"></i>
+
+    </div>
+    <div class="slide">
+        <img src="images\cus02.png" alt="quote">
+        <blockquote><i><b>"</b>quatis alique mos et aut occae cum, veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et l <b>"</b></i></blockquote>
+        <br></br>    
+        <p> - Muhamad Ali</p>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+    </div>
+    <div class="slide">
+        <img src="images\cus03.png" alt="quote">
+        <blockquote><i><b>"</b>quatis alique mos et aut occae cum, veliquaspit quo quam, si idem reprorisqui doluptatur accum si sunt ut officiisto enecab id et aut es et l <b>"</b></i></blockquote>         
+        <br></br>
+        <p> - Jennifer Bolton</p>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-half"></i>    
+    </div>
+</div></div>
+</section>
+
+
+<section class="end-ban">
+    <h1> Avail our services <br> Anywhere here in the Philippines </br></h1>
+    <a href="contact.html" class="view-btn"> CONTACT US NOW! </a>
+</section> 
+
+<footer class="footer">
+
+    <div class="footer-left">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24605737.923471726!2d-73.8547576570286!3d67.888396766491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ea20dbbe3c07715%3A0x34cf9d830114e218!2sGreenland!5e0!3m2!1sen!2sph!4v1656239981943!5m2!1sen!2sph" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="footer-company-name">Company Name © 2015</p>
+    </div>
+    <div class="footer-center">
+        <div>
+            <i class="bi bi-geo-alt"></i>
+            <p><span>Leaf Studios</span> Times Square, NY </p>
+        </div>
+        <div>
+            <i class="bi bi-telephone"></i>
+            <p>555 555 5555</p>
+        </div>
+        <div>
+            <i class="bi bi-telephone"></i>
+            <p><a href="">greendesigner.greener@yahoo.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+        <div class="social-icons">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
